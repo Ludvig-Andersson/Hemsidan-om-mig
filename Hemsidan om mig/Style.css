@@ -21,6 +21,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: coral;
 
+
 }
 
 nav label {
@@ -28,7 +29,7 @@ nav label {
     color:white;
     font-size:38px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 120px;
     
 }
 
@@ -50,26 +51,41 @@ font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 text-transform: uppercase;
 margin-right: 20px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: coral;
 }
 
-table {
+ 
+p {
+     width: 50ch;
+     display:flex;
+     margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 300px;
     Background-color: rgb(38, 38, 38, 0.8);
-    width: 300px;
-    length: 600px;
-}
+    padding: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: coral;
+    border-style: solid;
+    border-width: 1px;
+    border-color: coral;
+ }
 
-table td {
+ 
 
-}
-
-table td tr {
-
-}
-
-table td tr h3 {
-
-}
-
-table td tr p {
-
-}
+ footer h3 {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    Background-color: rgb(38, 38, 38, 0.8);
+    text-align: center;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: coral;
+ }
