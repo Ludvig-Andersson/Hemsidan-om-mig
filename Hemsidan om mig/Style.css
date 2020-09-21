@@ -1,24 +1,26 @@
 body {
-background-image: url(Bilder/Bakgrund1.jpeg);
-background-size: cover;
+  background-image: url(Bilder/Bakgrund1.jpeg);
+  background-size: cover;
 }
 
 nav {
-Background-color: rgb(38, 38, 38, 0.7)
+  background-color: rgb(38, 38, 38, 0.7);
 }
 
 nav label {
-
+  color: white;
 }
 
 nav ul {
-
 }
 
 nav ul li {
-
 }
 
 nav ul li a {
-color:white;
+  color: white;
+  text-decoration: none;
+
 }
+
+
