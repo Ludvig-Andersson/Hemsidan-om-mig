@@ -7,7 +7,7 @@
     }
 
 body {
-background-image: url(Bilder/Bakgrund2.jpg);
+background-image: url(Bilder/Bakgrund3.jpg);
 background-size: cover;
 
 
@@ -59,14 +59,13 @@ border-bottom-color: coral;
  
 p {
      width: 50ch;
-     display:flex;
-     margin: auto;
+     margin:auto;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    Background-color: rgb(38, 38, 38, 0.8);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    Background-color: rgb(38, 38, 38, 0.9);
     padding: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -76,6 +75,8 @@ p {
     border-color: coral;
  }
 
+
+ 
  
 
  footer h3 {
