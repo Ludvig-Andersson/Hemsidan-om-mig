@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(38, 38, 38, 0.8);
   height: 80px;
   width: 100%;
   border-bottom-style: solid;
@@ -55,7 +55,8 @@ nav ul li a {
 }
 
 .pictures {
-  padding: 20px;
+  padding: 10px;
+  padding-left: -50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -67,14 +68,24 @@ nav ul li a {
   max-width: 250px;
   max-height: 250px;
   margin: auto;
+  transition: 0.3s;
+}
+
+.pictures figure figcaption {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .pictures figure img {
   border: 2px solid white;
   border-radius: 50%;
-  box-shadow: gray 0 0 10px;
+  box-shadow: black 0 0 10px;
   width: 250px;
   height: 250px;
+  transition: 0.3s;
 }
 
 .p p {
@@ -96,7 +107,7 @@ nav ul li a {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  background-color: rgb(38, 38, 38, 0.8);
+  background-color: rgb(38, 38, 38);
   text-align: center;
   padding: 30px;
   border-top-style: solid;
@@ -120,4 +131,12 @@ nav label:hover {
 .footer .footer2 h3:hover {
   color: coral;
   padding-left: 0px;
+}
+
+.pictures figure:hover {
+  padding-top: 30px;
+}
+
+.pictures figure img:hover {
+  border-color: coral;
 }
